@@ -14,8 +14,8 @@ Test Teardown    Common_Keywords.End Testing
 
 *** Test Cases ***
 TC01 - Login Test
-    [Documentation]    Data Driven Test with Inputs from Dictionary Iterables from InputData.robot
-    [Tags]    Dictionary
+    [Documentation]    Data Driven Test with Inputs from Dictionary Iterables from InputData.robot using Test Template
+    [Tags]    Template
     [Template]      LoginPage_Keywords.Login
     ${CREDENTIALS1}
     ${CREDENTIALS2}
